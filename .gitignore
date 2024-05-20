@@ -13,7 +13,9 @@
 # Archivos de respaldo
 *~
 
-#Archivos sin extención
+#Archivos sin extension
+a.out
+*.
 *./
 
 # Directorios de compilación
