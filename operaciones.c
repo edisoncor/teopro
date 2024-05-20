@@ -1,23 +1,30 @@
+#include <stdio.h> //libreria de entrada y salida de datos
 
-#include <stdio.h>
 
 int main(){
-    int s1 = 2; // Declaración e inicialización
-    int s2 = 3; // Declaración e inicialización
-    int suma = s1 + s2; // Declaración e inicialización
+    //Declaracion de variables
+    int n1; // Variable entera
+    n1 = 3; // Inicialización
 
-    int resta = 6-8; // Declaración e inicialización
+    int n2 = 5; // Declaración e inicialización
+    float f1 = 0.1;
+    float f2;
+    f2 = 0.2;
+    char c1 = 'a';
+    char c2 = '3';
 
-    int m1 = 6; // Declaración e inicialización
-    int multiplicacion = m1 *5; // Declaración e inicialización
+    printf("n1 = %d", n1);
+    printf("\n");
+    printf("n2 = %d \n", n2);// %d para enteros
+    printf("f1 = %f \n", f1); // %f para float
+    printf("f2 = %f \n", f2); // %f para float
+    printf("c1 = %c \n", c1); // %c para char
 
-    int d1 = 0; // Declaración e inicialización
-    int division = d1 / 123; // Declaración e inicialización
+    float f3 = f1 + f2;
 
-    printf("La suma es %d\n", suma); // %d para enteros
-    printf("La resta es %d\n", resta); // %d para enteros
-    printf("La multipliación es %d\n", multiplicacion); // %d para enteros
-    printf("La división es %d\n", division); // %d para enteros
+    printf("f3 = %f \n", f3); 
+    printf("c2 = %d \n", c2);
+    printf("%c \n", 64);
 
     return 0;
 }
