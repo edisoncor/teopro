@@ -14,9 +14,10 @@
 *~
 
 #Archivos sin extension
-a.out
 *.
 *./
+*
+
 
 # Directorios de compilación
 build/
