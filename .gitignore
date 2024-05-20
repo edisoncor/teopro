@@ -1,0 +1,21 @@
+# Archivos objeto
+*.o
+
+# Archivos ejecutables
+*.exe
+*.out
+
+# Archivos generados por el compilador
+*.dSYM/
+*.swo
+*.swp
+
+# Archivos de respaldo
+*~
+
+#Archivos sin extención
+*./
+
+# Directorios de compilación
+build/
+bin/
