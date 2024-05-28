@@ -16,7 +16,10 @@
 #Archivos sin extension
 *.
 *./
+<<<<<<< HEAD
 
+=======
+>>>>>>> v0.3.1
 
 
 # Directorios de compilación
