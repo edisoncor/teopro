@@ -20,5 +20,6 @@ int main(){
     c.latitud = 19.4326;
     c.longitud = -99.1332;
     printf("La coordenada es: %f\n", c.latitud);
+    
 
 }
